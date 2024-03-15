@@ -4,3 +4,7 @@ from rest_framework.response import Response
 from . models import *
 from . serializer import *
 # Create your views here.
+
+# class ReactView(APIView):
+    def get(self, request):
+        output = []
